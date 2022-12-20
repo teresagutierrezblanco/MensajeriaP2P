@@ -7,4 +7,6 @@ Aunque esta información de clientes conectados será obtenida a través del ser
 
 El concepto de clientes "amigos" con los que se podrá chatear se implementará mediante un registro de usuarios, cuyos datos se almacenarán en una base de datos PostgreSQL. Tras este registro, los usuarios podrán buscar a sus "amigos", utilizando su identificador de usuario, con el objetivo de solicitar una amistad. Si este usuario que ha recibido la petición de amistad acepta, se añadirán automáticamente cada uno de los clientes a las respectivas listas de "amigos" para poder chatear.
 
-La implementación cuenta con una interfaz gráfica de usuario para los clientes. A través de esta podrán realizar todo lo planteado: registrarse e iniciar sesión, ver "amigos" conectados, buscar a "amigos" que no tiene en su lista y solicitar y aceptar amistades.
+La implementación cuenta con una interfaz gráfica de usuario para los clientes, implementada en JavaSwing. A través de esta podrán realizar todo lo planteado: registrarse e iniciar sesión, ver "amigos" conectados, buscar a "amigos" que no tiene en su lista y solicitar y aceptar amistades.
+
+Proyecto realizado en Netbeans.
